@@ -5,7 +5,7 @@
 
 body {
   font-family: 'Merriweather', serif;
-  background-color: #f9fafc;
+  background-color: #ebf2ff;
 }
 
 
@@ -22,10 +22,6 @@ body {
 
 .logo_img {
   width: 100%;
-}
-
-.nav_btn {
-
 }
 
 .btn {
@@ -45,6 +41,24 @@ body {
   cursor: pointer;
   border: 2px solid #ff6767;
   box-shadow: 3px solid gray;
+}
+
+.container {
+  padding: 30px;
+}
+
+.hero_image_conatiner {
+  width: 100%;
+
+}
+
+.img_hero {
+  width: 100%;
+}
+
+.hero_txt {
+  font-size: 52px;
+  margin: 20px 0;
 }
 
 @media (min-width: 768px) {
