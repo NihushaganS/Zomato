@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Merriweather', serif;
+  background-color: #f9fafc;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar_logo {
+  width: 100px;
+}
+
+.logo_img {
+  width: 100%;
+}
+
+.nav_btn {
+
+}
+
+.btn {
+  background-image: linear-gradient(to right, #ff512f 0%, #dd2476 51%, #ff512f 100%);
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+}
+
