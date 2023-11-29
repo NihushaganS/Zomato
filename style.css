@@ -8,8 +8,12 @@ body {
   background-color: #f9fafc;
 }
 
+
 .navbar {
   display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #fff;
 }
 
 .navbar_logo {
@@ -25,10 +29,38 @@ body {
 }
 
 .btn {
-  background-image: linear-gradient(to right, #ff512f 0%, #dd2476 51%, #ff512f 100%);
+  background-image: linear-gradient(to right,
+#ff512f 0%,
+#dd2476 51%,
+#ff512f 100%
+);
   color: #fff;
   border: none;
   padding: 12px;
   border-radius: 6px;
+  font-weight: 600;
 }
 
+.btn:hover {
+  cursor: pointer;
+  border: 2px solid #ff6767;
+  box-shadow: 3px solid gray;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    justify-content: space-between;
+    padding: 10px 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .navbar_logo {
+    width: 150px;
+  }
+  .btn {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
