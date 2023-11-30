@@ -54,6 +54,8 @@ body {
 
 .img_hero {
   width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 25%) ;
 }
 
 .hero_txt {
@@ -78,5 +80,8 @@ body {
     padding: 20px;
     font-size: 25px;
     font-weight: 600;
+  }
+  .hero_des {
+    width: 100%;
   }
 }
