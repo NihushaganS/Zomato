@@ -27,7 +27,7 @@ body {
 .btn {
   background-image: linear-gradient(to right,
 #ff512f 0%,
-#dd2476 51%,
+#c509b2 51%,
 #ff512f 100%
 );
   color: #fff;
@@ -40,7 +40,7 @@ body {
 .btn:hover {
   cursor: pointer;
   border: 2px solid #ff6767;
-  box-shadow: 3px solid gray;
+  box-shadow: 4px solid rgb(75, 74, 74);
 }
 
 .container {
@@ -115,7 +115,7 @@ body {
       background-image: linear-gradient(
         to right,
         #ff512f 0%,
-         #dd2476 51%,
+         rgb(203, 36, 221) 51%,
          #ff512f 100%
         );
       z-index: -3;
